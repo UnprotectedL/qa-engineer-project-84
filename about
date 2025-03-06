@@ -1,0 +1,10 @@
+name: Mikhail M.
+job: QA Engineer
+level: junior
+email: meowingtonsfan@gmail.com
+description: proud plant-parent
+skills: # Список навыков в виде списка, можете написать сюда что-то свое
+  - Функциональное тестирование
+  - Написание багрепортов
+  - Pairwise Tool, Qase.io, Postman
+  - Английский язык B2
