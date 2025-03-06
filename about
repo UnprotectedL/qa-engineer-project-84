@@ -4,7 +4,7 @@ job: QA Engineer
 level: junior
 email: meowingtonsfan@gmail.com
 description: proud plant-parent
-skills: # Список навыков в виде списка, можете написать сюда что-то свое
+skills: |
   - Функциональное тестирование
   - Написание багрепортов
   - Pairwise Tool, Qase.io, Postman
