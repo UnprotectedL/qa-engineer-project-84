@@ -136,7 +136,7 @@
     - Открыть DevTools (Ctrl+Shift+I)
     - Открыть Device Toolbar (Ctrl+Shift+M)
     - Выбрать в выпадающем списке Dimensions случайную модель смартфона
- expected-result: |
+  expected-result: |
     Сайт корректно отображается в разрешении смартфона
 
 - summary: |
