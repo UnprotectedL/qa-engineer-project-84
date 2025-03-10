@@ -1,12 +1,13 @@
+---
 - summary: |
     Тестирование кроссбраузерности сайта (Safari)
   environment: |
     Opera GX Версия 116.0.5366.148
     Windows 10 Pro 22H2 Сборка 19045.5487
   steps-to-reproduce: |
-   - Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
-   - Выбрать в таблице браузер Safari последней версии
-   - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
+    1. Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
+    2. Выбрать в таблице браузер Safari последней версии
+    3. Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
   expected-result: |
     Сайт корректно открывается в браузере Safari последней версии
   actual-result: |
@@ -17,11 +18,11 @@
   environment: |
     Opera GX Версия 116.0.5366.148
     Windows 10 Pro 22H2 Сборка 19045.5487
-  steps:
-   - Открыть страницу: https://hexlet-products-store.vercel.app
-   - Открыть DevTools (Ctrl+Shift+I)
-   - Открыть Device Toolbar (Ctrl+Shift+M)
-   - Выбрать в выпадающем списке Dimensions случайную модель смартфона
+  steps-to-reproduce: |
+    1. Открыть страницу: https://hexlet-products-store.vercel.app
+    2. Открыть DevTools (Ctrl+Shift+I)
+    3. Открыть Device Toolbar (Ctrl+Shift+M)
+    4. Выбрать в выпадающем списке Dimensions случайную модель смартфона
  expected-result: |
     Сайт корректно отображается в разрешении смартфона
   actual-result: |
@@ -33,10 +34,10 @@
     Opera GX Версия 116.0.5366.148
     Windows 10 Pro 22H2 Сборка 19045.5487
   steps-to-reproduce: |
-   - Открыть страницу https://pagespeed.web.dev
-   - Ввести в адресную строку https://hexlet-products-store.vercel.app
-   - Нажать кнопку Analyse
- expected-result: |
+   1. Открыть страницу https://pagespeed.web.dev
+   2. Ввести в адресную строку https://hexlet-products-store.vercel.app
+   3. Нажать кнопку Analyse
+  expected-result: |
     Сайт получает рейтинг Performance выше 89
   actual-result: |
     Рейтинг Performance сайта равен 84
