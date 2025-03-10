@@ -1,11 +1,42 @@
----
 - summary: |
-    Короткое описание ошибки
+    Тестирование кроссбраузерности сайта (Safari)
   environment: |
-    Ссылка на билд/коммит/версия ПО и всего окружения
+    Opera GX Версия 116.0.5366.148
+    Windows 10 Pro 22H2 Сборка 19045.5487
   steps-to-reproduce: |
-    Полный перечень шагов для воспроизведения и описание, на каком шаге произошла ошибка
+   - Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
+   - Выбрать в таблице браузер Safari последней версии
+   - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
   expected-result: |
-    Какой результат должен быть без ошибки
+    Сайт корректно открывается в браузере Safari последней версии
   actual-result: |
-    Какой результат получился на самом деле
+    Выпадает ошибка "Failed to open page"
+
+- summary: |
+    Тестирование мобильной версии сайта (Смартфон)
+  environment: |
+    Opera GX Версия 116.0.5366.148
+    Windows 10 Pro 22H2 Сборка 19045.5487
+  steps:
+   - Открыть страницу: https://hexlet-products-store.vercel.app
+   - Открыть DevTools (Ctrl+Shift+I)
+   - Открыть Device Toolbar (Ctrl+Shift+M)
+   - Выбрать в выпадающем списке Dimensions случайную модель смартфона
+ expected-result: |
+    Сайт корректно отображается в разрешении смартфона
+  actual-result: |
+    Сайт отображается некорректно: съезжает верстка у каталога товаров и поисковой строки
+
+- summary: |
+    Тестирование скорости и удобства работы сайта
+  environment: |
+    Opera GX Версия 116.0.5366.148
+    Windows 10 Pro 22H2 Сборка 19045.5487
+  steps-to-reproduce: |
+   - Открыть страницу https://pagespeed.web.dev
+   - Ввести в адресную строку https://hexlet-products-store.vercel.app
+   - Нажать кнопку Analyse
+ expected-result: |
+    Сайт получает рейтинг Performance выше 89
+  actual-result: |
+    Рейтинг Performance сайта равен 84
