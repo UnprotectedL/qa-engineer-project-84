@@ -4,99 +4,91 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары
   steps:
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    - Открыть страницу https://hexlet-products-store.vercel.app
   expected-result: |
     Пользователь должен попасть на главную страницу магазина с отображением товаров
 
-
-summary: |
+- summary: |
     Просмотр подробной информации о товаре 
   requirement: |
     Пользователь должен иметь возможность просматривать подробную информацию о товаре
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-    Нажать на случайный товар в каталоге
+    - Нажать на случайный товар в каталоге
   expected-result: |
     Пользователь должен попасть на страницу товара с подробной информацией
-
 
 - summary: |
     Поиск товара через фильтр по категории
   requirement: |
     Пользователь должен иметь возможность использовать фильтр по категории для поиска товаров
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-    Выбрать случайную категорию в левой части страницы
+    - Выбрать случайную категорию в левой части страницы
   expected-result: |
     Пользователь должен увидеть товары выбранной категории
 
-
 - summary: |
     Поиск товара через фильтр по бренду 
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность использовать фильтр по бренду для поиска товаров
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-    Выбрать случайный бренд в левой части страницы
+    - Выбрать случайный бренд в левой части страницы
   expected-result: |
     Пользователь должен увидеть товары выбранного бренда
-
 
 - summary: |
     Поиск товара по ключевому слову
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-    Начать ввод случайного слова в поле Search (Поиск) в левой части страницы
+    - Начать ввод случайного слова в поле Search (Поиск) в левой части страницы
   expected-result: |
     Пользователь должен увидеть список товаров, название которых содержит введенное слово
-
 
 - summary: |
     Добавление товара в корзину
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-   - Нажать кнопку Add to cart (В корзину) под случайным товаром
-   - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
+    - Нажать кнопку Add to cart (В корзину) под случайным товаром
+    - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
   expected-result: |
     Пользователь должен увидеть добавленный товар в корзине
-
 
 - summary: |
     Удаление товара из корзины
   requirement: |
     Пользователь должен иметь возможность удалить товар из корзины
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-   - Нажать кнопку Add to cart (В корзину) под случайным товаром
-   - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
-   - Нажать кнопку Delete (Удалить) напротив товара в корзине
+    - Нажать кнопку Add to cart (В корзину) под случайным товаром
+    - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
+    - Нажать кнопку Delete (Удалить) напротив товара в корзине
   expected-result: |
      Пользователь должен увидеть, что товар удален из корзины
-
 
 - summary: |
     Оформление заказа
   requirement: |
     Пользователь должен иметь возможность оформить заказ
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-   - Нажать кнопку Add to cart (В корзину) под случайным товаром
-   - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
-   - Нажать кнопку Checkout (Оформить заказ)
+    - Нажать кнопку Add to cart (В корзину) под случайным товаром
+    - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
+    - Нажать кнопку Checkout (Оформить заказ)
   expected-result: |
     Пользователь должен увидеть сообщение об успешном оформлении заказа
-
 
 - summary: |
     Тестирование кроссбраузерности сайта (Firefox)
@@ -105,11 +97,10 @@ requirement: |
   prerequisites: |
     Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
   steps:
-   - Выбрать в таблице браузер Firefox последней версии
-   - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
+    - Выбрать в таблице браузер Firefox последней версии
+    - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
   expected-result: |
     Сайт корректно открывается в браузере Firefox последней версии
-
 
 - summary: |
     Тестирование кроссбраузерности сайта (Google Chrome)
@@ -118,11 +109,10 @@ requirement: |
   prerequisites: |
     Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
   steps:
-   - Выбрать в таблице браузер Google Chrome последней версии
-   - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
+    - Выбрать в таблице браузер Google Chrome последней версии
+    - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
   expected-result: |
     Сайт корректно открывается в браузере Google Chrome последней версии
-
 
 - summary: |
     Тестирование кроссбраузерности сайта (Safari)
@@ -131,60 +121,56 @@ requirement: |
   prerequisites: |
     Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
   steps:
-   - Выбрать в таблице браузер Safari последней версии
-   - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
+    - Выбрать в таблице браузер Safari последней версии
+    - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
   expected-result: |
     Сайт корректно открывается в браузере Safari последней версии
-
 
 - summary: |
     Тестирование мобильной версии сайта (Смартфон)
   requirement: |
     Сайт должен иметь мобильную версию и быть доступен на различных устройствах
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-   - Открыть DevTools (Ctrl+Shift+I)
-   - Открыть Device Toolbar (Ctrl+Shift+M)
-   - Выбрать в выпадающем списке Dimensions случайную модель смартфона
+    - Открыть DevTools (Ctrl+Shift+I)
+    - Открыть Device Toolbar (Ctrl+Shift+M)
+    - Выбрать в выпадающем списке Dimensions случайную модель смартфона
  expected-result: |
     Сайт корректно отображается в разрешении смартфона
-
 
 - summary: |
     Тестирование мобильной версии сайта (Планшет)
   requirement: |
     Сайт должен иметь мобильную версию и быть доступен на различных устройствах
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-   - Открыть DevTools (Ctrl+Shift+I)
-   - Открыть Device Toolbar (Ctrl+Shift+M)
-   - Выбрать в выпадающем списке Dimensions случайную модель планшета
+    - Открыть DevTools (Ctrl+Shift+I)
+    - Открыть Device Toolbar (Ctrl+Shift+M)
+    - Выбрать в выпадающем списке Dimensions случайную модель планшета
  expected-result: |
     Сайт корректно отображается в разрешении планшета
-
 
 - summary: |
     Тестирование скорости и удобства работы сайта
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   steps:
-   - Открыть страницу https://pagespeed.web.dev
-   - Ввести в адресную строку https://hexlet-products-store.vercel.app
-   - Нажать кнопку Analyse
+    - Открыть страницу https://pagespeed.web.dev
+    - Ввести в адресную строку https://hexlet-products-store.vercel.app
+    - Нажать кнопку Analyse
  expected-result: |
     Сайт получает рейтинг Performance выше 89
-
 
 - summary: |
     Тестирование безопасности работы сайта
   requirement: |
     Сайт должен быть безопасным и защищать данные пользователя
   prerequisites: |
-    Открыть страницу: https://hexlet-products-store.vercel.app
+    Открыта страница: https://hexlet-products-store.vercel.app
   steps:
-   - Открыть DevTools (Ctrl+Shift+I)
-   - Открыть вкладку Security
+    - Открыть DevTools (Ctrl+Shift+I)
+    - Открыть вкладку Security
  expected-result: |
     Соединение на сайте является защищенным (протокол HTTPS)
