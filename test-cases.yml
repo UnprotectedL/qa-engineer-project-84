@@ -3,6 +3,8 @@
     Просмотр товара в каталоге
   requirement: |
     Пользователь должен иметь возможность просматривать товары
+  prerequisites: []
+  test data: []
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app
   expected-result: |
@@ -25,6 +27,7 @@
     Пользователь должен иметь возможность использовать фильтр по категории для поиска товаров
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Выбрать случайную категорию в левой части страницы
   expected-result: |
@@ -36,6 +39,7 @@
     Пользователь должен иметь возможность использовать фильтр по бренду для поиска товаров
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Выбрать случайный бренд в левой части страницы
   expected-result: |
@@ -47,6 +51,7 @@
     Пользователь должен иметь возможность искать товары по ключевому слову
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Начать ввод случайного слова в поле Search (Поиск) в левой части страницы
   expected-result: |
@@ -58,6 +63,7 @@
     Пользователь должен иметь возможность добавлять товары в корзину
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Нажать кнопку Add to cart (В корзину) под случайным товаром
     - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
@@ -70,6 +76,7 @@
     Пользователь должен иметь возможность удалить товар из корзины
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Нажать кнопку Add to cart (В корзину) под случайным товаром
     - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
@@ -83,6 +90,7 @@
     Пользователь должен иметь возможность оформить заказ
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Нажать кнопку Add to cart (В корзину) под случайным товаром
     - Перейти в корзину через кнопку Cart (Корзина) в правой верхней части страницы
@@ -96,6 +104,7 @@
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
     Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
+  test data: []
   steps:
     - Выбрать в таблице браузер Firefox последней версии
     - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
@@ -108,6 +117,7 @@
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
     Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
+  test data: []
   steps:
     - Выбрать в таблице браузер Google Chrome последней версии
     - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
@@ -120,6 +130,7 @@
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
     Открыть страницу browserstack.com , зарегистрироваться и получить доступ к бесплатному функционалу
+  test data: []
   steps:
     - Выбрать в таблице браузер Safari последней версии
     - Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
@@ -132,6 +143,7 @@
     Сайт должен иметь мобильную версию и быть доступен на различных устройствах
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Открыть DevTools (Ctrl+Shift+I)
     - Открыть Device Toolbar (Ctrl+Shift+M)
@@ -145,6 +157,7 @@
     Сайт должен иметь мобильную версию и быть доступен на различных устройствах
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Открыть DevTools (Ctrl+Shift+I)
     - Открыть Device Toolbar (Ctrl+Shift+M)
@@ -156,6 +169,7 @@
     Тестирование скорости и удобства работы сайта
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
+  test data: []
   steps:
     - Открыть страницу https://pagespeed.web.dev
     - Ввести в адресную строку https://hexlet-products-store.vercel.app
@@ -169,6 +183,7 @@
     Сайт должен быть безопасным и защищать данные пользователя
   prerequisites: |
     Открыта страница: https://hexlet-products-store.vercel.app
+  test data: []
   steps:
     - Открыть DevTools (Ctrl+Shift+I)
     - Открыть вкладку Security
