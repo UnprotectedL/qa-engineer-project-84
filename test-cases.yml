@@ -149,7 +149,7 @@
     - Открыть DevTools (Ctrl+Shift+I)
     - Открыть Device Toolbar (Ctrl+Shift+M)
     - Выбрать в выпадающем списке Dimensions случайную модель планшета
- expected-result: |
+  expected-result: |
     Сайт корректно отображается в разрешении планшета
 
 - summary: |
@@ -160,7 +160,7 @@
     - Открыть страницу https://pagespeed.web.dev
     - Ввести в адресную строку https://hexlet-products-store.vercel.app
     - Нажать кнопку Analyse
- expected-result: |
+  expected-result: |
     Сайт получает рейтинг Performance выше 89
 
 - summary: |
@@ -172,5 +172,5 @@
   steps:
     - Открыть DevTools (Ctrl+Shift+I)
     - Открыть вкладку Security
- expected-result: |
+  expected-result: |
     Соединение на сайте является защищенным (протокол HTTPS)
