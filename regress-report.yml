@@ -1,9 +1,5 @@
 ---
-test-cases:
-  - summary: |
-      Просмотр товара в каталоге
-    status: pass
-  
+test-cases:  
   - summary: |
       Просмотр подробной информации о товаре 
     status: pass
@@ -54,14 +50,6 @@ test-cases:
 
   - summary: |
       Тестирование мобильной версии сайта (Планшет)
-    status: pass
-
-  - summary: |
-      Тестирование скорости и удобства работы сайта
-    status: pass
-    
-  - summary: |
-      Тестирование безопасности работы сайта
     status: pass
 
 bugreports:
