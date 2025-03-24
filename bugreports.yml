@@ -27,17 +27,3 @@
     Сайт корректно отображается в разрешении смартфона
   actual-result: |
     Сайт отображается некорректно: съезжает верстка у каталога товаров и поисковой строки
-
-- summary: |
-    Тестирование скорости и удобства работы сайта
-  environment: |
-    Opera GX Версия 116.0.5366.148
-    Windows 10 Pro 22H2 Сборка 19045.5487
-  steps-to-reproduce: |
-   1. Открыть страницу https://pagespeed.web.dev
-   2. Ввести в адресную строку https://hexlet-products-store.vercel.app
-   3. Нажать кнопку Analyse
-  expected-result: |
-    Сайт получает рейтинг Performance выше 89
-  actual-result: |
-    Рейтинг Performance сайта равен 84
