@@ -9,7 +9,7 @@
     2. Выбрать в таблице браузер Safari последней версии
     3. Ввести в адресной строке адрес страницы https://hexlet-products-store.vercel.app   
   expected-result: |
-    Сайт корректно открывается в браузере Safari последней версии
+    Сайт открывается в браузере Safari последней версии
   actual-result: |
     Выпадает ошибка "Failed to open page"
 
